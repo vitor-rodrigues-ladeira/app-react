@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import styles from './Form.module.css';
 
-export default function MyForm() {
+export default function Form() {
     const [name, setName] = useState("")
     const [displayValue, setDisplayValue] = useState('')
 
