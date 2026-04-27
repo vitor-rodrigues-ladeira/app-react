@@ -1,0 +1,35 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 26vh;
+    justify-content: space-around;
+}
+
+.form label {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    border: 2px solid #6f170c;
+    margin-top: 10px;
+    height: 4vh;
+    width: 14vw;
+    border-radius: 5px;
+}
+
+.submit {
+    width: 15vw;
+    height: 4vh;
+    border: 2px solid #0dc10d;
+    border-radius: 10px;
+    color: #0dc10d;
+    padding: 5px;
+}
+
+.submit:hover {
+    background-color: #0dc10d;
+    color: white;
+    cursor: pointer;
+}
