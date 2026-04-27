@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { createRoot } from 'react-dom/client';
 import styles from './Form.module.css';
 
 export default function MyForm() {
@@ -32,7 +31,3 @@ export default function MyForm() {
         </div>
     )
 }
-
-createRoot(document.getElementById('root')).render(
-    <MyForm />
-)
